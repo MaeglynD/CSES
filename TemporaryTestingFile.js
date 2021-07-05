@@ -1,11 +1,3 @@
-// const i = 10
-// const test = Array.from({ length: i }, () =>
-// 	Array.from({ length: i }, (x, i) => '0')
-// )
-
-// console.table(test)
-
-
 function test(x, y) {
 	const maxint = Math.max(x, y);
 	let move = maxint - Math.min(x, y);
