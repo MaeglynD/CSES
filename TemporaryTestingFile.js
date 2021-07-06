@@ -19,3 +19,11 @@ console.log(test(2, 3));
 console.log(test(4, 3));
 console.log(test(6, 3));
 console.log(test(1, 5));
+
+// total = 0;
+// for i in matrix:
+// 	// It starts looking from i onwards. Only search forward.
+// 	testi = i
+// for testi in matrix:
+// 	does i && testi work ? total++
+
