@@ -27,3 +27,15 @@ console.log(test(1, 5));
 // for testi in matrix:
 // 	does i && testi work ? total++
 
+for (let i = 1; i < 10; i++) {
+	const k = i;
+	const ksq = k * k;
+
+	const total = ((ksq - 1) * (1 + (ksq - 1)) / 2);
+	const attackingSquares = ((k - 2) * 10) + (((k - 4) * 4) * (k - 2)) + ((k * 2) - 4);
+
+	// console.log(total);
+	// console.log(attackingSquares);
+	console.log(total - attackingSquares);
+}
+
