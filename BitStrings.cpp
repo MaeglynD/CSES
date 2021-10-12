@@ -4,11 +4,18 @@ using namespace std;
 #define ll long long int
 
 int main () {
-	ll n;
+	int n, total = 2;
+	unsigned int base = 1000000007;
+
 	cin >> n;
 
-	cout << (ll)pow(2, n) % 7;
+	while (n > 1) {
+		total = (total * 2) % base;
+		n--;
+	}
 
+	cout << total;
+	
 	return 0;
 }
 
